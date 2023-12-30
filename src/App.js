@@ -18,6 +18,12 @@ import Form from './components/pages/form/form';
 import Calendar from './components/pages/calendar/calendar';
 import FAQ from './components/pages/faq/faq';
 
+import Bar from './components/pages/bar/bar';
+import Pie from './components/pages/pie/pie';
+import Line from './components/pages/line/line';
+import Geography from './components/pages/geography/geography';
+
+
 
 
 function App() {
@@ -39,6 +45,12 @@ function App() {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={< Calendar />} />
               <Route path="/faq" element={< FAQ />} />
+              <Route path="/bar" element={< Bar />} />
+              <Route path="/pie" element={< Pie />} />
+              <Route path="/line" element={< Line />} />
+              <Route path="/geography" element={< Geography />} />
+              
+
           
             </Routes>
 
